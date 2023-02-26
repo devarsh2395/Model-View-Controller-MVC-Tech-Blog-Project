@@ -67,9 +67,7 @@ npm install
 
 ## Usage
 
-Below is the link to the walkthrough video which will demonstrates the functionality.
 
-[Link to the walkthrough video](https://drive.google.com/file/d/1gsjIslpFG-cBW96tDlUj8dd26eMM5PpC/view)
 
 ## Contributing
 
