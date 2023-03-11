@@ -4,7 +4,7 @@ const home = require("./home_routes.js");
 const dashboard = require("./dashboard_routes.js");
 
 router.use("/", home);
-router.use("/dashboard", dashboard);
+router.use("/profile", dashboard);
 router.use("/api", api);
 
 

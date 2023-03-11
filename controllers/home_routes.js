@@ -10,7 +10,7 @@ router.get("/", async (req, res ) => {
             plain: true,
         }));
         // res.json(posts)
-        res.render("all_posts", {posts})
+        res.render("all_posts", {posts, logged_in: req.session.logged_in})
     }
     catch(err){
         res.status(500).json(err);

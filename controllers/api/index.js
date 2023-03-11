@@ -3,9 +3,9 @@ const user = require("./user_routes");
 const post = require("./post_routes");
 const comment = require("./comment_routes");
 
-router.use("/user", user);
-router.use("/post", post);
-router.use("/comment", comment);
+router.use("/users", user);
+router.use("/posts", post);
+router.use("/comments", comment);
 
 
 
